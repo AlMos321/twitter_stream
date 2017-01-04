@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "17c8610336ab8e836ef7df5866e81563",
-    "content-hash": "fa527612f1da4054ed50ee144485fbbe",
+    "hash": "1a7e6537bd3f9e2ea5c44fae85e0e7ce",
+    "content-hash": "aaa2e91eb4ad3ba2e86b3288477035ba",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -204,6 +204,58 @@
                 "twitter"
             ],
             "time": "2014-09-30 23:30:52"
+        },
+        {
+            "name": "illuminated/helper-functions",
+            "version": "1.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dmitry-ivanov/laravel-helper-functions.git",
+                "reference": "a97fc59f83b49441d86d5dfd68f8bb9f09408652"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dmitry-ivanov/laravel-helper-functions/zipball/a97fc59f83b49441d86d5dfd68f8bb9f09408652",
+                "reference": "a97fc59f83b49441d86d5dfd68f8bb9f09408652",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "^5.2",
+                "php": ">=5.6.4",
+                "symfony/finder": "^3.0",
+                "symfony/process": "^3.0",
+                "symfony/var-dumper": "^3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^0.9.5",
+                "phpunit/phpunit": "^5.5"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/autoload.php"
+                ],
+                "psr-4": {
+                    "Illuminated\\Helpers\\": "src/classes/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dmitry Ivanov",
+                    "email": "dmitry.g.ivanov@gmail.com"
+                }
+            ],
+            "description": "Provides Laravel-specific and pure PHP helper functions.",
+            "keywords": [
+                "function",
+                "helper",
+                "laravel"
+            ],
+            "time": "2016-12-28 16:07:49"
         },
         {
             "name": "jakub-onderka/php-console-color",

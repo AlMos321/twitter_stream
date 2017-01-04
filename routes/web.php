@@ -12,30 +12,76 @@
 */
 
 Route::get('/', function () {
+    $tweetsTrack = \App\Http\Controllers\Feeds\TwitterController::$trackArray;
     if (Auth::check()) {
-        $tweets = App\Tweet::orderBy('created_at','desc')->paginate(5);
+        $tweets = App\Tweet::orderBy('created_at', 'desc')->paginate(5);
     } else {
-        $tweets = App\Tweet::where('approved',1)->orderBy('created_at','desc')->take(25)->get();
+        $tweets = App\Tweet::where('approved', 1)->orderBy('created_at', 'desc')->take(25)->get();
     }
 
-    return view('welcome', ['tweets' => $tweets]);
+    return view('welcome', ['tweets' => $tweets, 'tweetsTrack' => $tweetsTrack]);
 });
 
 
-Route::post('approve-tweets', ['middleware' => 'auth', function (Illuminate\Http\Request $request) {
-    foreach ($request->all() as $input_key => $input_val) {
-        if ( strpos($input_key, 'approval-status-') === 0 ) {
-            $tweet_id = substr_replace($input_key, '', 0, strlen('approval-status-'));
-            $tweet = App\Tweet::where('id',$tweet_id)->first();
+Route::post('approve-tweets', [
+    'middleware' => 'auth',
+    function (Illuminate\Http\Request $request) {
+        $tweets = App\Tweet::all();
+        foreach ($tweets as $tweet){
+            $tweet->approved = 1;
+            $tweet->save();
+        }
+        return redirect()->back();
+    }
+]);
+
+/*
+ * Approved tweet by id
+ */
+Route::post('approve-tweet', [
+    'middleware' => 'auth',
+    function (Illuminate\Http\Request $request) {
+        if($request->ajax() == false) {
+            return response()->json(['status' => 'error. Not ajax request']);
+        } else {
+            $tweetId = $request->id;
+            $tweet = App\Tweet::find($tweetId);
             if ($tweet) {
-                $tweet->approved = (int)$input_val;
+                $tweet->approved = 1;
                 $tweet->save();
             }
+            return response()->json(['status' => 'success']);
         }
     }
-    return redirect()->back();
-}]);
+]);
+
+/*
+ * Unapproved tweet by id
+ */
+Route::post('unapprove-tweet', [
+    'middleware' => 'auth',
+    function (Illuminate\Http\Request $request) {
+        if($request->ajax() == false) {
+            return response()->json(['status' => 'error. Not ajax request']);
+        } else {
+            $tweetId = $request->id;
+            $tweet = App\Tweet::find($tweetId);
+            if ($tweet) {
+                $tweet->approved = 0;
+                $tweet->save();
+            }
+            return response()->json(['status' => 'success']);
+        }
+    }
+]);
+
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/twitter-settings', 'Feeds\TwitterController@index');
+
+Route::get('/start', 'Feeds\TwitterController@start');
+
+

@@ -2,6 +2,7 @@
 
 namespace App\Console\Commands;
 
+use App\Http\Controllers\Feeds\TwitterController;
 use Illuminate\Console\Command;
 use App\TwitterStream;
 
@@ -22,6 +23,7 @@ class ConnectToStreamingAPI extends Command
     protected $description = 'Connect to the Twitter Streaming API';
 
     protected $twitterStream;
+    
 
     /**
      * Create a new command instance.
@@ -42,12 +44,12 @@ class ConnectToStreamingAPI extends Command
      */
     public function handle()
     {
+        $trackArray = TwitterController::$trackArray;
         $twitter_consumer_key = env('TWITTER_CONSUMER_KEY', '');
         $twitter_consumer_secret = env('TWITTER_CONSUMER_SECRET', '');
-
         $this->twitterStream->consumerKey = $twitter_consumer_key;
         $this->twitterStream->consumerSecret = $twitter_consumer_secret;
-        $this->twitterStream->setTrack(array('2017'));
+        $this->twitterStream->setTrack($trackArray);
         $this->twitterStream->consume();
     }
 }
