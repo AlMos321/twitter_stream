@@ -47,7 +47,7 @@ class ConnectToStreamingAPI extends Command
 
         $this->twitterStream->consumerKey = $twitter_consumer_key;
         $this->twitterStream->consumerSecret = $twitter_consumer_secret;
-        $this->twitterStream->setTrack(array('scotch_io'));
+        $this->twitterStream->setTrack(array('2017'));
         $this->twitterStream->consume();
     }
 }
