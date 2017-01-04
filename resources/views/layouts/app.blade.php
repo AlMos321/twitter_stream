@@ -19,6 +19,15 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+
+    <style>
+        .tweet {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <div id="app">
