@@ -22,12 +22,21 @@ Route::get('/', function () {
     return view('welcome', ['tweets' => $tweets, 'tweetsTrack' => $tweetsTrack]);
 });
 
+Route::get('/get-last-tweets', function (Illuminate\Http\Request $request) {
+    $tweets = App\Tweet::where('approved', 1)->orderBy('created_at', 'desc')->take(25)->get();
+    if (isset($tweets[0]->id) && $tweets[0]->id != $request->last_id) {
+        return response()->json(['tweets' => $tweets]);
+    } else {
+        return response()->json(['tweets' => [], 'emptyData' => 1]);
+    }
+});
+
 
 Route::post('approve-tweets', [
     'middleware' => 'auth',
     function (Illuminate\Http\Request $request) {
         $tweets = App\Tweet::all();
-        foreach ($tweets as $tweet){
+        foreach ($tweets as $tweet) {
             $tweet->approved = 1;
             $tweet->save();
         }
@@ -41,7 +50,7 @@ Route::post('approve-tweets', [
 Route::post('approve-tweet', [
     'middleware' => 'auth',
     function (Illuminate\Http\Request $request) {
-        if($request->ajax() == false) {
+        if ($request->ajax() == false) {
             return response()->json(['status' => 'error. Not ajax request']);
         } else {
             $tweetId = $request->id;
@@ -61,7 +70,7 @@ Route::post('approve-tweet', [
 Route::post('unapprove-tweet', [
     'middleware' => 'auth',
     function (Illuminate\Http\Request $request) {
-        if($request->ajax() == false) {
+        if ($request->ajax() == false) {
             return response()->json(['status' => 'error. Not ajax request']);
         } else {
             $tweetId = $request->id;

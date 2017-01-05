@@ -19,6 +19,7 @@
                 'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    <script src="/js/jquery-3.1.1.min.js"></script>
 
     <style>
         .tweet {
@@ -96,7 +97,6 @@
 </div>
 
 <!-- Scripts -->
-<script src="/js/jquery-3.1.1.min.js"></script>
 <script src="/js/app.js"></script>
 
 </body>

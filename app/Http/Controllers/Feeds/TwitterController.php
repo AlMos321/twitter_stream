@@ -1,10 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Feeds;
-
-use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Artisan;
 
 class TwitterController extends Controller
 {
@@ -36,12 +33,6 @@ class TwitterController extends Controller
     public function index()
     {
         return view('settings');
-    }
-
-    public function start()
-    {
-        call_in_background('connect_to_streaming_api');
-        return redirect()->back();
     }
     
 }

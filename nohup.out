@@ -1,0 +1,526 @@
+Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'Adriano Celentano,Bellissimo,Адриано Челентано',)
+Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+Phirehose: Connection established to stream.twitter.com
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 140
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="ZnKJMtxqcSAZQQRpSMDQRDTu6",oauth_nonce="80ab707fb7c7a07c00745d27134131a1",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1483555415",oauth_version="1.0A",oauth_token="2892039274-k5zwgHlwGOTLRrahO7Icihee7SB98HpBrA9BGur",oauth_signature="XcejwS4I%2F%2BoDaTPd6l35fnVZ8AU%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=Adriano%20Celentano%2CBellissimo%2C%D0%90%D0%B4%D1%80%D0%B8%D0%B0%D0%BD%D0%BE%20%D0%A7%D0%B5%D0%BB%D0%B5%D0%BD%D1%82%D0%B0%D0%BD%D0%BE
+
+
+Phirehose: Connecting to twitter stream: https://stream.twitter.com/1.1/statuses/filter.json with params: array (  'track' => 'Adriano Celentano,Bellissimo,Адриано Челентано',)
+Phirehose: Connecting to ssl://stream.twitter.com, port=443, connectTimeout=5
+Phirehose: Connection established to stream.twitter.com
+Phirehose: POST /1.1/statuses/filter.json HTTP/1.1
+Host: stream.twitter.com:443
+Connection: Close
+Content-type: application/x-www-form-urlencoded
+Content-length: 140
+Accept: */*
+Authorization: OAuth realm="",oauth_consumer_key="ZnKJMtxqcSAZQQRpSMDQRDTu6",oauth_nonce="5568d4742e717e505855e5042a3cd608",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1483555468",oauth_version="1.0A",oauth_token="2892039274-k5zwgHlwGOTLRrahO7Icihee7SB98HpBrA9BGur",oauth_signature="LAuTZzEFpdLC8mdHVj3Q6xsQgdE%3D"
+User-Agent: Phirehose/1.0RC +https://github.com/fennb/phirehose
+
+track=Adriano%20Celentano%2CBellissimo%2C%D0%90%D0%B4%D1%80%D0%B8%D0%B0%D0%BD%D0%BE%20%D0%A7%D0%B5%D0%BB%D0%B5%D0%BD%D1%82%D0%B0%D0%BD%D0%BE
+
+
+Phirehose: Consume rate: 0 status/sec (8 total), avg enqueueStatus(): 131.89ms, avg checkFilterPredicates(): 0ms (6 total) over 65 seconds, max stream idle period: 12 seconds.
+Phirehose: Consume rate: 0 status/sec (5 total), avg enqueueStatus(): 164.81ms, avg checkFilterPredicates(): 0ms (4 total) over 61 seconds, max stream idle period: 22 seconds.
+Phirehose: Consume rate: 0 status/sec (7 total), avg enqueueStatus(): 126.77ms, avg checkFilterPredicates(): 0ms (8 total) over 74 seconds, max stream idle period: 17 seconds.
+Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 189.57ms, avg checkFilterPredicates(): 0ms (6 total) over 68 seconds, max stream idle period: 21 seconds.
+Phirehose: Consume rate: 0 status/sec (2 total), avg enqueueStatus(): 205.95ms, avg checkFilterPredicates(): 0ms (7 total) over 69 seconds, max stream idle period: 17 seconds.
+Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 142.74ms, avg checkFilterPredicates(): 0ms (7 total) over 61 seconds, max stream idle period: 14 seconds.
+Phirehose: Consume rate: 0 status/sec (2 total), avg enqueueStatus(): 227.8ms, avg checkFilterPredicates(): 0ms (5 total) over 64 seconds, max stream idle period: 15 seconds.
+Phirehose: Consume rate: 0 status/sec (3 total), avg enqueueStatus(): 55.19ms, avg checkFilterPredicates(): 0ms (6 total) over 62 seconds, max stream idle period: 16 seconds.
+Phirehose: Consume rate: 0 status/sec (4 total), avg enqueueStatus(): 118.86ms, avg checkFilterPredicates(): 0ms (5 total) over 64 seconds, max stream idle period: 16 seconds.
+Phirehose: Consume rate: 0 status/sec (5 total), avg enqueueStatus(): 183.84ms, avg checkFilterPredicates(): 0ms (6 total) over 64 seconds, max stream idle period: 17 seconds.
+Phirehose: Consume rate: 0 status/sec (5 total), avg enqueueStatus(): 308.62ms, avg checkFilterPredicates(): 0ms (7 total) over 65 seconds, max stream idle period: 14 seconds.
+[2017-01-04 19:29:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:29:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:29:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:29:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:29:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:29:21] Processed: App\Jobs\ProcessTweet
+
+                                                                                                                                                                                 
+  [Symfony\Component\Process\Exception\ProcessTimedOutException]                                                                                                                 
+  The process "'/usr/bin/php7.0' 'artisan' queue:work '' --once --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0 --env='local'" exceeded the timeout of 60 seconds.  
+                                                                                                                                                                                 
+
+[2017-01-04 19:38:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:25] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:25] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:38:54] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:39:29] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:39:37] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:39:50] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:40:04] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:40:11] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:40:18] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:40:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:43:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:43:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:44:02] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:44:16] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:44:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:44:40] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:44:44] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:44:55] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:45:02] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:45:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:45:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:45:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:46:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:46:15] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:46:16] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:47:01] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:47:58] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:47:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:47:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:04] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:09] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:13] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:29] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:29] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:30] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:37] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:37] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:44] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:44] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:48:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:52:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:52:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:53:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:53:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:53:13] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:54:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:56:02] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:56:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:56:40] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:57:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:58:46] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:59:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 19:59:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:00:09] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:00:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:01:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:01:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:01:18] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:01:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:01:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:02:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:02:13] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:02:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:02:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:03:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:03:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:03:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:03:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:04:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:04:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:04:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:04:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:04:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:04:36] Processed: App\Jobs\ProcessTweet
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+PHP Fatal error:  Cannot use [] for reading in /var/www/tweets.loc/app/Jobs/ProcessTweet.php on line 40
+
+                                                           
+  [Symfony\Component\Debug\Exception\FatalErrorException]  
+  Cannot use [] for reading                                
+                                                           
+
+[2017-01-04 20:07:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:08:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:08:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:08:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:08:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:08:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:09:16] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:09:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:09:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:10:11] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:10:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:10:46] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:10:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:11:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:11:27] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:11:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:11:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:11:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:45] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:12:56] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:13:00] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:13:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:13:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:13:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:13:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:14:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:14:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:15:30] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:15:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:15:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:16:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:11] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:18] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:25] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:17:56] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:18:00] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:18:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:18:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:18:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:18:55] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:19:02] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:19:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:19:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:19:30] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:19:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:31:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:31:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:31:56] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:31:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:32:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:29] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:33] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:37] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:44] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:33:58] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:34:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:34:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:34:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:35:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:35:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:35:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:35:40] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:35:40] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:25] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:46] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:36:53] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:37:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:37:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:37:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:37:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:37:58] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:38:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:38:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:18] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:39:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:32] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:50] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:40:53] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:00] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:01] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:45] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:41:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:42:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:42:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:42:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:15] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:33] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:37] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:43:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:44:02] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:44:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:44:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:44:54] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:04] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:30] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:45:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:11] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:16] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:29] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:29] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:41] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:46:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:18] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:27] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:47:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:48:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:48:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:49:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:49:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:49:45] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:49:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:02] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:50:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:51:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:51:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:51:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 20:51:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:11] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:11] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:27] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:46] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:55] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:55] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:56] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:05:56] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:00] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:09] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:18] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:27] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:06:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:06] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:28] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:39] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:44] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:07:45] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:00] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:00] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:25] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:33] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:49] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:08:53] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:09] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:12] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:13] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:14] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:15] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:36] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:40] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:44] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:54] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:58] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:09:58] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:10:07] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:10:20] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:10:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:10:38] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:10:42] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:10:43] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:04] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:08] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:09] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:26] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:48] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:11:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:09] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:13] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:16] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:21] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:24] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:25] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:32] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:35] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:12:56] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:17] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:34] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:52] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:13:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:03] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:46] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:50] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:50] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:54] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:14:54] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:01] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:05] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:19] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:22] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:33] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:47] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:51] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:58] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:15:59] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:16:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:16:10] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:16:23] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:16:31] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:16:32] Processed: App\Jobs\ProcessTweet
+[2017-01-04 21:16:47] Processed: App\Jobs\ProcessTweet
